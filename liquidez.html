@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <title>Liquidity</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="javascript.js"></script>
+    <script src="https://kit.fontawesome.com/f9d88e15cc.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <nav id="navbar">
+            <li class="left"><a href="#"><i class="fas fa-bars navbar"></i></a></li>
+            <li class="left"><a href="#"><span class="navbar">BSLP</span></a></li>
+
+            <li class="right"><a href="#"><span class="navbar">Connect to Wallet</span></a></li>
+            <li class="right"><a href="#"><i class="fas fa-cog navbar"></i></a></li>
+
+
+        </nav>
+        <div class="flex-container">
+            <aside>
+                <blockquote>
+                    <div class="container-img"><a href="#"><i class="fas fa-home active navbar"></i></div><span
+                        class="hidden navbar">Home</span></a>
+                </blockquote>
+                <blockquote>
+                <div class="dropdown">
+                    <button><a href="#"><i class="fas fa-exchange-alt navbar"></i><span
+                        class="hidden navbar">Transfer</span></a></button>
+            <div class="dropdown-content">
+                <blockquote><a href=""><span class="hidden navbar">Exchange</span></a></blockquote>
+                <blockquote><a href=""><span class="hidden navbar">Liquidity</span></a></blockquote>  
+                </div>
+                <blockquote><a href=""><i class="fas fa-tractor navbar"></i><span class="hidden navbar">Farms</span></a>
+                </blockquote>
+                <blockquote><a href=""><i class="fas fa-home navbar"></i><span class="hidden navbar">Pools</span></a>
+                </blockquote>
+                <blockquote><a href=""><i class=""></i><span class="hidden navbar">Staking</span></a></blockquote>
+                <blockquote><a href=""><i class="fas fa-store navbar"></i><span class="hidden navbar">IFO</span></a>
+                </blockquote>
+            </blockquote>
+
+
+            </aside>
+            <section>
+
+                <div id="container-exchange">
+                    <div id="options">
+                        <span><a href="index.html" class="option-top" id="swap">Swap</a></span>
+                        <span><a href="#" class="option-top current" id="liquidity">Liquidity</a></span>
+                    </div>
+                    <div id="exchange">
+                        <h4 class="navbar addliquidity">Add Liquidity
+                            <span class="e-interface navbar"><a href="#"><i
+                                        class="fas fa-history e-interface navbar"></i></a></span>
+                            <span class="e-interface navbar"><a href="#"><i class="fas fa-cog navbar"></i></a></span>
+                        </h4>
+                        <h5 class="navbar addliquidity">Add liquidity to receive LP tokens</h5>
+                    </div>
+
+                    <div id="form">
+                        <form method="POST">
+                            <div id="containerform1">
+                                <div id="labelfrom">
+                                    <label for="from">Input</label><br />
+
+
+                                </div>
+                                <br />
+                                <div id="inputfrom">
+                                    <input type="text" name="from" id="from" placeholder="0.0" />
+
+                                    <select name="cryptocurrencies" id="cryptocurrencies">
+                                        <option value="select-currency" selected disabled hidden>Select a currency
+                                        </option>
+                                        <option value="Alpaca">Alpaca</option>
+                                        <option value="Belt">Belt</option>
+                                        <option value="BNB">BCH</option>
+                                        <option value="BTCB">BTCB</option>
+                                        <option value="Bunny">Bunny</option>
+                                        <option value="BUSD">BUSD</option>
+                                        <option value="Cake">Cake</option>
+                                        <option value="Eps">EPS</option>
+                                        <option value="Eth">ETH</option>
+                                        <option value="Nrv">NRV</option>
+                                        <option value="Safemoon">SAFEMOON</option>
+                                        <option value="Tko">TKO</option>
+                                        <option value="Usdt">USDT</option>
+                                        <option value="Vai">VAI</option>
+                                        <option value="Wbnb">WBNB</option>
+                                        <option value="Xvs">XVS</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div id="arrow">
+                                <span><i class="fas fa-plus"></i></span>
+                            </div>
+                            <div id="containerform2">
+                                <div id="labelto">
+                                    <label for="to">Input</label><br />
+                                </div>
+                                <div id="inputto">
+                                    <input type="text" name="to" id="to" placeholder="0.0">
+                                    <select name="tocryptocurrencies" id="tocryptocurrencies">
+                                        <option value="selectcryptocurrency" selected hidden disabled>Select a currency
+                                        </option>
+                                        <option value="Alpaca">Alpaca</option>
+                                        <option value="Belt">Belt</option>
+                                        <option value="BNB">BCH</option>
+                                        <option value="BTCB">BTCB</option>
+                                        <option value="Bunny">Bunny</option>
+                                        <option value="BUSD">BUSD</option>
+                                        <option value="Cake">Cake</option>
+                                        <option value="Eps">EPS</option>
+                                        <option value="Eth">ETH</option>
+                                        <option value="Nrv">NRV</option>
+                                        <option value="Safemoon">SAFEMOON</option>
+                                        <option value="Tko">TKO</option>
+                                        <option value="Usdt">USDT</option>
+                                        <option value="Vai">VAI</option>
+                                        <option value="Wbnb">WBNB</option>
+                                        <option value="Xvs">XVS</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div id="container-connect">
+                                <a href="#">Connect Wallet</a>
+                            </div>
+                    </div>
+                    </form>
+                </div>
+        </div>
+        </section>
+    </div>
+</body>
+
+</html>
